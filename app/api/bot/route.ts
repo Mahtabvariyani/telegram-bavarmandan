@@ -8,7 +8,7 @@ if (!token) throw new Error('TELEGRAM_BOT_TOKEN environment variable not found.'
 
 const bot = new Bot(token)
 
-const TARGET_CHANNEL = "@salebeyekoliyeh"
+const TARGET_CHANNEL = "-1002667114289"; // شناسه گروه شما
 
 // حالت انتخاب بین فایل یا پیام
 bot.command("start", async (ctx) => {

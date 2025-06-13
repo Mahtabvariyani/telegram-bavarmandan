@@ -90,6 +90,8 @@ bot.on("message", async (ctx) => {
   } else {
     await ctx.reply("\u0644\u0637\u0641\u0627 \u0627\u0628\u062A\u062F\u0627 \u062F\u0633\u062A\u0648\u0631 /start \u0631\u0627 \u0627\u062C\u0631\u0627 \u06A9\u0646\u06CC\u062F.")
   }
+
+  
 })
 
 export const POST = webhookCallback(bot, 'std/http')
